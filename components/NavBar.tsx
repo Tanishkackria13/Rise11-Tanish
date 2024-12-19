@@ -54,6 +54,13 @@ const NavBar: React.FC = () => {
           />
         </button>
       </nav>
+      <SideBar isOpen={isSidebarOpen} closeSidebar={closeSidebar} className="lg:hidden" />
+      {isSidebarOpen && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-50 z-30 md:hidden"
+          onClick={closeSidebar}
+        />
+      )}
     </>
   );
 };
