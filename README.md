@@ -91,5 +91,4 @@ This is a responsive React-based **File Claim Form** application built with **Ne
 
 2. **Large device view**:
    -Here is the view on large device (My own laptop)
-![Alt Text](/public/large2.png)
-![Alt Text](/public/large.png)
+![Alt Text](/public/large1.png)
