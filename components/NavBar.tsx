@@ -17,7 +17,6 @@ const NavBar: React.FC = () => {
   return (
     <>
       <nav className="flex justify-between items-center bg-slate-50 shadow-2xl py-3 px-6 sm:px-12">
-        {/* Logo */}
         <div className="flex items-center space-x-3">
           <img
             src="/logo.svg"
@@ -28,7 +27,6 @@ const NavBar: React.FC = () => {
             Jur
           </h1>
         </div>
-        {/* Icons */}
         <div className="hidden md:flex items-center space-x-4 sm:space-x-6">
           <button className="p-2 rounded hover:bg-gray-100">
             <img
@@ -45,7 +43,6 @@ const NavBar: React.FC = () => {
             />
           </button>
         </div>
-        {/* Menu Button for Small Screens */}
         <button
           onClick={toggleSidebar}
           className="lg:hidden p-2 rounded hover:bg-gray-100"
