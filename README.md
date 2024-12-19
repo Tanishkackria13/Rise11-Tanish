@@ -86,10 +86,10 @@ This is a responsive React-based **File Claim Form** application built with **Ne
 
 2. **Medium device view**:
    -Here is the view on medium device (ipad)
-![Alt Text](/public/medium1.png.png)
-![Alt Text](/public/Medium2.png.png)
+![Alt Text](/public/medium1.png)
+![Alt Text](/public/Medium2.png)
 
 2. **Large device view**:
    -Here is the view on large device (My own laptop)
-![Alt Text](/public/large2.png.png)
+![Alt Text](/public/large2.png)
 ![Alt Text](/public/large.png)
