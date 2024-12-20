@@ -10,10 +10,10 @@ export const Items: { name: string; icon: React.ReactNode }[] = [
   { name: "Open a Dispute", icon: <FaGavel size={20} /> },
 ];
 
-interface SideBarProps {
-  isOpen: boolean;  // Sidebar visibility state
-  closeSidebar: () => void;  // Close sidebar function
-}
+// interface SideBarProps {
+//   isOpen: boolean;  // Sidebar visibility state
+//   closeSidebar: () => void;  // Close sidebar function
+// }
 
 const SideBar: React.FC<{ isOpen: boolean; closeSidebar: () => void; className?: string }> = ({
   isOpen,
