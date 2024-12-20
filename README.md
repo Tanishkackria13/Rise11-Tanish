@@ -54,7 +54,13 @@ This is a responsive React-based **File Claim Form** application built with **Ne
   - Created a reusable `UploadField` component for consistent upload logic.
   - Implemented individual `UploadCards` and `AdditionalCard` components for clarity and customization.
 
-### **3. Tailwind CSS Overwriting Defaults**
+### **3. ProgressBar on medium devices**
+- **Problem**: on Medium devices the it was difficult to manage with the progressBar .
+- **Solution**:
+  - Progress Bar has been hidden on small device and instead a total number of task completed is displayed and task left.
+  - It helps in space management and better adaptability for users.  
+
+### **4. Tailwind CSS Overwriting Defaults**
 - **Problem**: Some Tailwind CSS classes conflicted with form default styles.
 - **Solution**:
   - Used Tailwind's utility classes explicitly to override unwanted default behavior.
@@ -68,10 +74,10 @@ This is a responsive React-based **File Claim Form** application built with **Ne
    - Only PDF files are allowed for upload.
    - The file size is limited to 2MB.
 
-4. **Icons and Assets**:
+2. **Icons and Assets**:
    - Icons like `upload.svg`, `calculator.svg`, etc., are stored in the `public` folder for simplicity.
 
-5. **Deployment Environment**:
+3. **Deployment Environment**:
    - The app will primarily be deployed on modern browsers and tested for compatibility with mobile, tablet, and desktop devices.
 
 
