@@ -50,7 +50,7 @@ const SideBar: React.FC<{ isOpen: boolean; closeSidebar: () => void; className?:
       {/* Sidebar Footer Image */}
       <div className="relative hidden lg:block">
         <img
-          src="/SidebarImage.png"
+          src="/sidebarImage.png"
           alt="Sidebar Footer"
           className="w-full m-2 h-[14rem] lg:h-[18rem] object-cover rounded-2xl"
         />
